@@ -5,19 +5,27 @@ import './App.css'
 import Header from './components/header/Header';
 
 
-function App() {
+// function App() {
   
 
+//   return (
+//     <div className='App'>
+//       <Header
+//         titulo='MyTinerary'
+//       />
+//     </div>
+//   );
+// }
+
+
+const App = () => {
   return (
-    <div className='App'>
-      <Header
-        titulo='MyTinerary'
-
-    
-
-      />
+    <div>
+      <Header />
+      {/* Aquí puedes agregar el contenido de tu aplicación */}
+      <h1>Contenido de la aplicación</h1>
     </div>
   );
-}
+};
 
 export default App
