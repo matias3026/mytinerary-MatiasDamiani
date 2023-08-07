@@ -3,11 +3,13 @@
 .linksvarios {
     width: 100%;
     display: flex;       
-    justify-content: space-evenly;    
+    justify-content: space-evenly; 
+    color: ghostwhite;   
 }
 
 .nav-link-item{   
-    font-weight: bold;   
+    font-weight: bold; 
+    color: ghostwhite;  
     
 }
 
@@ -15,8 +17,26 @@
     display: flex;
     justify-content: space-evenly;
     width: 80%;
+    
 
 }
 
+.icon{
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    
+}
+.sign{
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 
+}
 
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

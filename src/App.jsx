@@ -17,26 +17,41 @@
 //   );
 // }
 
-import './App.css'
+// src/App.js
+// src/App.js
+// src/App.js
+// App.js
 import React from 'react';
+import './App.css';
 import Header from './components/Header/Header';
 import MenuLateral from './components/AsideMenu/MenuLateral';
+import CallToAction from './components/calltoaction/CallToAction';
+import Hero from './components/Hero/Hero'; // Asegúrate de tener la ruta correcta aquí
+
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <div style={{ display: 'flex' }}>
-        <div style={{ flex: '0 0 250px' }}>
-          <MenuLateral /> {/* Aquí colocamos el menú lateral */}
-        </div>
-        <div style={{ flex: '1' }}>
-          {/* Contenido principal de tu aplicación */}
-          <h1>Contenido de la aplicación</h1>
+    <Router>
+      <div>
+        <Header />
+        <div style={{ position: 'relative', backgroundImage: 'url("src/assets/santorini.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
+          <CallToAction />
+          <div style={{ display: 'flex' }}>
+            <div style={{ flex: '0 0 250px' }}>
+              <MenuLateral />
+            </div>
+            <div style={{ flex: '1' }}>
+              <Hero /> {/* Agregamos el componente Hero aquí */}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </Router>
   );
 };
 
 export default App;
+
+
+

@@ -4,12 +4,12 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { FaSuitcase, FaUser } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css'; // Importa el archivo de estilos personalizados Header.css
-import logoImage from '@/assets/logonegro2.png'; // Utiliza @/ para acceder a la carpeta src
+import logoImage from '@/assets/logo1.png'; // Utiliza @/ para acceder a la carpeta src
 
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant='dark' expand="lg">
+    <Navbar bg="primary"  expand="lg">
       <Navbar.Brand>
         <img className="log" src={logoImage} alt="logo de la app MyTinerary" /> 
         
@@ -24,11 +24,12 @@ const Header = () => {
           
         </Nav>
         <Nav className="ml-auto">
-          <Nav.Link>
-            <FaUser size={10}  />
-            Sign In
+          <Nav.Link className='login'>
+            <FaUser size={25} className='icon' />
+            <p className='sign'>Sign In</p>
           </Nav.Link>
         </Nav>
+
       </Navbar.Collapse>
     </Navbar>
   );
