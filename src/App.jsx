@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/header/Header';
+
+
 
 
 // function App() {
@@ -17,15 +17,26 @@ import Header from './components/header/Header';
 //   );
 // }
 
+import './App.css'
+import React from 'react';
+import Header from './components/Header/Header';
+import MenuLateral from './components/AsideMenu/MenuLateral';
 
 const App = () => {
   return (
     <div>
       <Header />
-      {/* Aquí puedes agregar el contenido de tu aplicación */}
-      <h1>Contenido de la aplicación</h1>
+      <div style={{ display: 'flex' }}>
+        <div style={{ flex: '0 0 250px' }}>
+          <MenuLateral /> {/* Aquí colocamos el menú lateral */}
+        </div>
+        <div style={{ flex: '1' }}>
+          {/* Contenido principal de tu aplicación */}
+          <h1>Contenido de la aplicación</h1>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default App
+export default App;

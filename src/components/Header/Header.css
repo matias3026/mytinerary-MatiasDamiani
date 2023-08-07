@@ -1,0 +1,22 @@
+/* estilos para los links*/
+
+.linksvarios {
+    width: 100%;
+    display: flex;       
+    justify-content: space-evenly;    
+}
+
+.nav-link-item{   
+    font-weight: bold;   
+    
+}
+
+.lin1234{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+
+
+
