@@ -1,0 +1,38 @@
+/* Footer.css */
+
+.footer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 20px;
+    
+  }
+  
+  .footer-menu {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-link-item {
+    color: white;
+    margin: 0 15px;
+  }
+  
+  .footer-info {
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Cambia el color al pasar el mouse sobre los íconos */
+  .social-icon:hover {
+    color: lightblue;
+  }
+  

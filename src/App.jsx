@@ -21,46 +21,49 @@
 // src/App.js
 // src/App.js
 // App.js
+// ...importaciones necesarias...
+
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import MenuLateral from './components/AsideMenu/MenuLateral';
 import CallToAction from './components/calltoaction/CallToAction';
-import Hero from './components/Hero/Hero'; // Asegúrate de tener la ruta correcta aquí
+import CarouselComponent from './components/CarouselComponent/CarouselComponent'; 
 import Popup from './components/Popup/Popup';
+import Footer from './components/Footer/Footer';
 
 import { BrowserRouter as Router } from 'react-router-dom';
+import Hero from './components/hero/hero';
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
         <Header />
-        <div style={{ position: 'relative', backgroundImage: 'url("src/assets/santorini.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
-          <CallToAction />
-          <div style={{ display: 'flex' }}>
-            <div style={{ flex: '0 0 250px' }}>
+        <Hero />
+        
+        <div style={{ backgroundImage: 'url("src/assets/santorini.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh', display: 'flex', flexDirection: 'column', width: '100%' }}>
+          
+          <div style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }}>
+            <div>
               <MenuLateral />
             </div>
-            <div style={{ flex: '1', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ flex: '0 0 auto', width: '220vh', marginLeft: '-206px', marginRight: '20px', paddingLeft: '20px' }}>
-                <Hero /> {/* El componente Hero tomará el ancho completo incluyendo los márgenes negativos */}
-              </div>
-              <div style={{ flex: '1' }}>
-                {/* Contenido principal aquí */}
-              </div>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '55px' }}>
+              <CallToAction />
+              <CarouselComponent />
             </div>
           </div>
+          
         </div>
+        
         <Popup />
+        <Footer />
       </div>
-      
     </Router>
   );
 };
 
 export default App;
-
 
 
 

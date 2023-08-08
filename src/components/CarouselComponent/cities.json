@@ -1,0 +1,16 @@
+
+[
+    { "name": "Finland", "capital": "Helsinki", "image": "src/assets/carrousel/helsinki.jpeg" },
+    { "name": "Sweden", "capital": "Stockholm", "image": "src/assets/carrousel/stockholm.jpg" },
+    { "name": "Norway", "capital": "Oslo", "image": "src/assets/carrousel/oslo.jpg" },
+    { "name": "Germany", "capital": "Berlin", "image": "src/assets/carrousel/berlin.jpg" },
+    { "name": "Greece", "capital": "Athens", "image": "src/assets/carrousel/athens.jpg" },
+    { "name": "Italy", "capital": "Rome", "image": "src/assets/carrousel/rome.jpg" },
+    { "name": "Japan", "capital": "Tokyo", "image": "src/assets/carrousel/tokio.jpg" },
+    { "name": "United Kingdom", "capital": "London", "image": "src/assets/carrousel/london.jpg" },
+    { "name": "United States", "capital": "Washington, D.C.", "image": "src/assets/carrousel/washington.jpg" },
+    { "name": "Ecuador", "capital": "Quito", "image": "src/assets/carrousel/quito.jpg" },
+    { "name": "Colombia", "capital": "Bogotá", "image": "src/assets/carrousel/bogota.jpeg" },
+    { "name": "Argentina", "capital": "Buenos Aires", "image": "src/assets/carrousel/bsas.jpg" }
+  ]
+  
