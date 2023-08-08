@@ -10,6 +10,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: black;
+    
   }
   
   .call-to-action h2 {
@@ -22,4 +23,22 @@
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
-  
+  .cta-icon {
+    margin: 15px; /* Agregar espacio entre los iconos y el texto */
+  }
+  .earth{
+    color: rgb(0, 255, 94);
+  }
+  .earth1{
+    color: rgb(197, 42, 42);
+    padding-top: 5px;
+  }
+  .button1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+   
+  }

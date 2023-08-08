@@ -1,0 +1,58 @@
+.popup-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .popup {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .popup.show {
+    animation: fadeInOut 0.5s ease-in-out forwards;
+    visibility: visible;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  
+  .plane-icon {
+    margin-right: 10px;
+  }
+  
+  .explore-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    width: 100%;
+  }
+  
+  .explore-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .map-icon {
+    margin-left: 10px;
+  }
+  

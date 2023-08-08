@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { FaSuitcase, FaUser } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css'; // Importa el archivo de estilos personalizados Header.css
-import logoImage from '@/assets/logo1.png'; // Utiliza @/ para acceder a la carpeta src
+import logoImage from '@/assets/MYTEN.png'; // Utiliza @/ para acceder a la carpeta src
 
 
 const Header = () => {
