@@ -30,7 +30,7 @@ const CarouselComponent = () => {
                       alt={city.name}
                     />
                     <p className="city-name">{city.name}</p>
-                    <Button variant="primary">Travel to {city.name} !</Button> {/* Agrega el botón */}
+                    <Button variant="primary">Travel to {city.name} !</Button> 
                   </div>
                 ))}
               </div>

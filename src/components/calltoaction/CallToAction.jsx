@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useSpring, animated } from 'react-spring';
-import { FaGlobe, FaMapMarkerAlt } from 'react-icons/fa'; // Importamos los iconos que necesitamos
+import { FaGlobe, FaMapMarkerAlt } from 'react-icons/fa'; // los iconos 
 import './call.css';
 
 const CallToAction = () => {
@@ -10,7 +10,7 @@ const CallToAction = () => {
 
   return (
     <animated.div className="call-to-action" style={animation}>
-      <FaGlobe size={60} className="cta-icon" class="earth" /> {/* Icono de globo terráqueo */}
+      <FaGlobe size={60} className="cta-icon" class="earth" /> 
       <h2>Find your perfect trip</h2>
       <p>Designed by insiders who know and love their cities!</p>
       <div className="button1">

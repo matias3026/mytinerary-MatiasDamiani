@@ -6,12 +6,12 @@
 .city-card {
   text-align: center;
   margin: 10px;
-  padding: 20px; /* Ajusta el espacio interno de la tarjeta */
+  padding: 20px; 
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #fff;
-  width: 200px; /* Ajusta el ancho de la tarjeta */
-  height: 250px; /* Ajusta el alto de la tarjeta */
+  width: 200px; /* ancho de la tarjeta */
+  height: 250px; /*  alto de la tarjeta */
 }
 
 .city-image {

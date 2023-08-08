@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import './Footer.css'; // Asegúrate de importar los estilos del Footer
+import './Footer.css'; 
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className="footer-info">
         <p>123 Street, City</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Phone: (011) 6225-3128</p>
         <div className="social-icons">
           <a href="#" className="social-icon">
             <FaFacebook size={20} />
