@@ -3,6 +3,7 @@ import { Nav } from 'react-bootstrap';
 import { FaSuitcase, FaUser } from 'react-icons/fa';
 import './AsideMenu.css';
 
+
 const MenuLateral = () => {
   return (
     <Nav className="flex-column lateral">
