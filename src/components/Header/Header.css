@@ -2,6 +2,7 @@
 
 .linksvarios {
     width: 100%;
+    min-width: 100%;
     display: flex;       
     justify-content: space-evenly; 
     color: ghostwhite;   
@@ -16,7 +17,7 @@
 .lin1234{
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+    
     
 
 }
