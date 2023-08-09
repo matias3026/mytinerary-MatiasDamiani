@@ -3,6 +3,7 @@
   text-align: center;  
   background-color: #f2f2f2;
   width: 100%;
+  min-width: 100%;
   min-height: 25vh;
   height: 30vh;  
   display: flex;
@@ -26,3 +27,5 @@
 .display-4{
   font-weight: bold;
 }
+
+
