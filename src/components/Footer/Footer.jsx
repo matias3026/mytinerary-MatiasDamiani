@@ -6,8 +6,12 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
+      
       <div className="footer-menu">
+        
         <Nav className="justify-content-center">
+          
+         
           <Nav.Link href="#link1" className="nav-link-item">
             Link 1
           </Nav.Link>

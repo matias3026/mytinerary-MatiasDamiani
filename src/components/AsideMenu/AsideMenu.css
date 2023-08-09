@@ -1,7 +1,7 @@
 .lateral{
     background-color: #0d6efd;
     width: 5%;
-    height:125vh ;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

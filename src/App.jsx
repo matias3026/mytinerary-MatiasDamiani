@@ -38,27 +38,28 @@ import Hero from './components/hero/hero';
 const App = () => {
   return (
     <Router>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div className='boxdiv1'>
         <Header />
-        <Hero />
+        <Hero />       
         
-        <div style={{ backgroundImage: 'url("src/assets/santorini.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh', display: 'flex', flexDirection: 'column', width: '100%' }}>
-          
-          <div style={{ display: 'flex', justifyContent: 'space-between', flexDirection: 'column' }}>
-            <div>
-              <MenuLateral />
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '55px' }}>
-              <CallToAction />
-              <CarouselComponent />
-            </div>
+        <div className='boxdiv2'>
+          <div className='side'>
+            <MenuLateral />
           </div>
           
-        </div>
+                    {/* <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '55px' }}> */}
+          <div className='callto'> 
+            <div className='calltoAction'>
+              <CallToAction />              
+            </div>  
+              <CarouselComponent />                        
+            </div>          
+          </div>
         
-        <Popup />
-        <Footer />
-      </div>
+        
+          <Popup />
+          <Footer />
+        </div>
     </Router>
   );
 };
