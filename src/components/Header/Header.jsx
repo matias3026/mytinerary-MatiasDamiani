@@ -4,6 +4,7 @@ import { FaSuitcase, FaUser } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import logoImage from '@/assets/MYTEN.png';
+import { Link } from 'react-router-dom'; // Importa el componente Link
 import linksData from './links.json'; // Importa el archivo JSON
 
 const Header = () => {
@@ -14,9 +15,14 @@ const Header = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className='linksvarios'>
-        <Nav className="lin1234" > 
+        <Nav className="lin1234">
           {linksData.map(link => (
-            <Nav.Link key={link.id} href={link.href} className="nav-link-item">
+            <Nav.Link
+              key={link.id}
+              as={Link} // Usa el componente Link en lugar de href
+              to={link.href} // Usa la propiedad 'to' para definir la ruta
+              className="nav-link-item"
+            >
               {link.text}
             </Nav.Link>
           ))}
@@ -28,9 +34,7 @@ const Header = () => {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-       
     </Navbar>
-    
   );
 };
 

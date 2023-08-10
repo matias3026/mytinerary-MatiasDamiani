@@ -1,29 +1,19 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import './Footer.css'; 
+import './Footer.css';
+import linksData from '../Header/links.json';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      
       <div className="footer-menu">
-        
         <Nav className="justify-content-center">
-          
-         
-          <Nav.Link href="#link1" className="nav-link-item">
-            Link 1
-          </Nav.Link>
-          <Nav.Link href="#link2" className="nav-link-item">
-            Link 2
-          </Nav.Link>
-          <Nav.Link href="#link3" className="nav-link-item">
-            Link 3
-          </Nav.Link>
-          <Nav.Link href="#link4" className="nav-link-item">
-            Link 4
-          </Nav.Link>
+          {linksData.map(link => (
+            <Nav.Link key={link.id} href={link.href} className="nav-link-item">
+              {link.text}
+            </Nav.Link>
+          ))}
         </Nav>
       </div>
       <div className="footer-info">
@@ -46,4 +36,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
