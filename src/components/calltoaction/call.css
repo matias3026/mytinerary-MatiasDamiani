@@ -11,8 +11,10 @@
     text-align: center;
     color: black;
     width: 500px;
-    margin-top: 50px;
-    margin-bottom:-75px;  
+    margin-top: 100px;
+    /* margin-bottom:-75px;   */
+    min-width: 100%;
+
     
   }
   
@@ -31,10 +33,12 @@
   }
   .earth{
     color: rgb(0, 255, 94);
+    font-size: 40px;
   }
   .earth1{
     color: rgb(197, 42, 42);
     padding-top: 5px;
+    font-size: 40px;
   }
   .button1{
     display: flex;
@@ -45,3 +49,104 @@
     
    
   }
+
+  .blue{
+    font-weight: bold;
+    width: 300px;
+    height: 70px;
+  }
+
+
+
+  /* Media query para pantallas pequeñas */
+@media (max-width: 1150px) and (max-height: 995px) {
+  .call-to-action {
+    width: 250px; /* El 25% del tamaño original */
+    height: 15hv;
+    margin-top: 20px; /* Ajustar según sea necesario */
+    margin-bottom: -30px; /* Ajustar según sea necesario */
+
+  }
+
+  .call-to-action h2 {
+    font-size: 1.5rem; /* Ajustar según sea necesario */
+  }
+
+  .call-to-action p {
+    font-size: 1rem; /* Ajustar según sea necesario */
+  }
+
+  .cta-icon {
+    margin: 5px; /* Ajustar según sea necesario */
+  }
+
+  .button1 .btn {
+    max-width: 100px; /* Ajustar según sea necesario */
+    margin-top: 5px; /* Ajustar según sea necesario */
+  }
+
+  
+}
+
+/* .-.-.-.-.-.-.-.-.-.-.-.-.-.*/
+
+
+@media (max-width: 992px) and (max-height: 559px) {
+  .call-to-action {
+    width: 105px; 
+    height: 60vh;
+    margin-top: 20px; /* Ajustar según sea necesario */
+    margin-bottom: -30px; /* Ajustar según sea necesario */
+    left: auto; /
+    width: auto
+
+  }
+  .call-to-action h2 {
+    font-size: 0.5rem; /* Ajustar según sea necesario */
+  }
+
+  .call-to-action p {
+    font-size: 0.5rem; /* Ajustar según sea necesario */
+  }
+
+  .cta-icon {
+    margin: 1px; /* Ajustar según sea necesario */
+  }
+
+  .button1 .btn {
+    max-width: 60px; /* Ajustar según sea necesario */
+    margin-top: 5px; /* Ajustar según sea necesario */
+  
+  }
+  .earth ,.earth1{
+    font-size: 25px;
+  }
+  
+  .blue{
+    
+    
+    font-size: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+}  
+
+}
+@media (max-width: 385px) and (max-height: 559px) {
+  .call-to-action{
+    position: sticky;
+    padding: 5%;
+  }
+
+
+
+
+
+
+
+
+}

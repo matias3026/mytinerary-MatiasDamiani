@@ -10,14 +10,14 @@ const CallToAction = () => {
 
   return (
     <animated.div className="call-to-action" style={animation}>
-      <FaGlobe size={60} className="cta-icon earth" />
+      <FaGlobe  className="cta-icon earth" />
       <h2>Find your perfect trip</h2>
       <p>Designed by insiders who know and love their cities!</p>
       <div className="button1">
         <Link to="/cities"> 
-          <Button className="animate__animated animate__bounce ">Explore Cities</Button>
+          <Button className="animate__animated animate__bounce blue">Explore Cities</Button>
         </Link>
-        <FaMapMarkerAlt size={40} className="cta-icon earth1" />
+        <FaMapMarkerAlt  className="cta-icon earth1" />
       </div>
     </animated.div>
   );
