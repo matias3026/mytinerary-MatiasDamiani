@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useSpring, animated } from 'react-spring';
 import { FaGlobe, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Importa Link
 import './call.css';
 
 const CallToAction = () => {
@@ -13,7 +14,9 @@ const CallToAction = () => {
       <h2>Find your perfect trip</h2>
       <p>Designed by insiders who know and love their cities!</p>
       <div className="button1">
-        <Button className="animate__animated animate__bounce">Explore Cities</Button>
+        <Link to="/cities"> 
+          <Button className="animate__animated animate__bounce ">Explore Cities</Button>
+        </Link>
         <FaMapMarkerAlt size={40} className="cta-icon earth1" />
       </div>
     </animated.div>

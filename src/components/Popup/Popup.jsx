@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { FaGlobe, FaPlane, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Importa Link
 import './Popup.css';
 
 const Popup = () => {
@@ -9,14 +10,14 @@ const Popup = () => {
   useEffect(() => {
     const initialTimer = setTimeout(() => {
       setShow(true);
-    }, 5000); // Mostrar el popup después de 5 segundos
+    }, 5000);
 
     const recurringTimer = setInterval(() => {
       setShow(true);
       setTimeout(() => {
         setShow(false);
-      }, 3000); // Ocultar el popup después de 3 segundos
-    }, 30000); // Mostrar el popup cada 30 segundos
+      }, 3000);
+    }, 30000);
 
     return () => {
       clearTimeout(initialTimer);
@@ -31,7 +32,9 @@ const Popup = () => {
         <div className="popup-content">
           <h2>Find your perfect trip</h2>
           <p>Designed by insiders who know and love their cities!</p>
-          <Button className="explore-button">Explore Cities</Button>
+          <Link to="/cities"> {/* Usar Link en lugar de Button */}
+            <Button className="explore-button">Explore Cities</Button>
+          </Link>
         </div>
         <FaMapMarkerAlt className="map-icon" size={30} />
       </Modal.Body>

@@ -19,20 +19,23 @@
 
 
 
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomeContent from './HomeContent';
+import HomeContent from './components/HomeContent/HomeContent';
+import Cities from './components/Cities/Cities'; // Importa el componente Cities
+// ...
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomeContent />} />
-        {/* Agrega más rutas aquí si es necesario */}
+        <Route path="/cities" element={<Cities />} /> {/* Ruta para el componente Cities */}
+        {/* Otras rutas */}
       </Routes>
     </Router>
   );
 };
 
 export default App;
-

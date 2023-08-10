@@ -8,6 +8,9 @@
     align-self: center;
     align-items: center;   
     min-width: 75px;
+    position: sticky;
+    top:10vh;
+    z-index: 0;
     
     
 

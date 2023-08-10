@@ -9,7 +9,7 @@ import linksData from './links.json'; // Importa el archivo JSON
 
 const Header = () => {
   return (
-    <Navbar bg="primary" expand="lg">
+    <Navbar bg="primary" expand="lg" className='header'>
       <Navbar.Brand>
         <img className="log" src={logoImage} alt="logo de la app MyTinerary" /> 
       </Navbar.Brand>
