@@ -1,7 +1,6 @@
 [
-    { "id": 1, "text": "Link 1", "href": "#link1" },
-    { "id": 2, "text": "Link 2", "href": "#link2" },
-    { "id": 3, "text": "Link 3", "href": "#link3" },
-    { "id": 4, "text": "Link 4", "href": "#link4" }
-  ]
-  
+  { "id": 1, "text": "Home", "href": "/" },
+  { "id": 2, "text": "Cities", "href": "/link2" },
+  { "id": 3, "text": "Link 3", "href": "/link3" },
+  { "id": 4, "text": "Link 4", "href": "/link4" }
+]
