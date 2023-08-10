@@ -1,3 +1,4 @@
+/* Estilos generales */
 .carousel {
   width: 100%;
   height: 900px;
@@ -11,7 +12,7 @@
   border-radius: 10px;
   background-color: #fff;
   width: 200px; /* ancho de la tarjeta */
-  height: 250px; /*  alto de la tarjeta */
+  height: 250px; /* alto de la tarjeta */
 }
 
 .city-image {
@@ -32,19 +33,16 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  
 }
 
 .carousel-title {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 10px;
-  
   color: white;
-  
 }
 
-.travelBu{
+.travelBu {
   display: flex;
   flex-direction: column;
   width: 150px;
@@ -54,47 +52,38 @@
   align-self: center;
   color: aqua;
   font-weight: bold;
-  
 }
 
-.city-card {
-  /* ... (reglas CSS anteriores) ... */
-  width: 200px; /* ancho de la tarjeta */
-  height: 250px; /* alto de la tarjeta */
-}
-
-/* Añadir una media query para ajustar el tamaño de las tarjetas en tamaños pequeños */
+/* Media queries para ajustes responsivos */
 @media (max-width: 977px) {
   .carousel {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     width: 75%;
     margin-top: 5%;
-    
-    
-    
   }
-  .carousel-title{
-    margin-top: 5%;
+  
+  .carousel-title {
+    margin-top: 2%;
   }
 }
 
-@media (max-width: 651px) {
+@media (max-width: 650px) {
   .carousel {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     width: 50%;
-    height: 2200px;
-    margin-top: 10%;
-    
-    
-    
+    height: 2200px; 
+    margin-top: 0;
   }
-  .carousel-title{
-    margin-top: 100vh;
+  
+  .carousel-container {
+    margin-top: 240px; 
   }
+}
 
-
-
-
+@media (max-width: 1149px) {
+  .carousel-title {
+    margin-top: 20vh;
+  }
 }
