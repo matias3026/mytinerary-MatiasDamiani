@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Carousel, Button } from 'react-bootstrap'; // Agregamos Button de react-bootstrap
+import { Carousel, Button } from 'react-bootstrap';
 import citiesData from './cities.json';
 import './CarouselComponent.css';
 
@@ -16,12 +16,12 @@ const CarouselComponent = () => {
         activeIndex={index}
         onSelect={handleSelect}
         className="carousel"
-        interval={2000} // Cambia la velocidad de cambio automático (en milisegundos)
+        interval={2000}
       >
         {citiesData.map((city, index) => (
           index % 4 === 0 && (
             <Carousel.Item key={index}>
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center flex-wrap"> {/* Cambia aquí */}
                 {citiesData.slice(index, index + 4).map((city, subIndex) => (
                   <div key={subIndex} className="city-card">
                     <img
