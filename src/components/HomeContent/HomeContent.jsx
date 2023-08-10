@@ -53,6 +53,7 @@ const HomeContent = () => {
       <Popup />
       <Footer />
     </div>
+    
   );
 };
 

@@ -1,6 +1,6 @@
 .carousel {
   width: 100%;
-  height: 30vh;
+  height: 900px;
 }
 
 .city-card {
@@ -57,3 +57,44 @@
   
 }
 
+.city-card {
+  /* ... (reglas CSS anteriores) ... */
+  width: 200px; /* ancho de la tarjeta */
+  height: 250px; /* alto de la tarjeta */
+}
+
+/* Añadir una media query para ajustar el tamaño de las tarjetas en tamaños pequeños */
+@media (max-width: 977px) {
+  .carousel {
+    display: flex;
+    justify-items: center;
+    width: 75%;
+    margin-top: 5%;
+    
+    
+    
+  }
+  .carousel-title{
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 651px) {
+  .carousel {
+    display: flex;
+    justify-items: center;
+    width: 50%;
+    height: 2200px;
+    margin-top: 10%;
+    
+    
+    
+  }
+  .carousel-title{
+    margin-top: 100vh;
+  }
+
+
+
+
+}
