@@ -72,6 +72,7 @@ button:focus-visible {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 
   }
 body{
@@ -79,5 +80,6 @@ body{
   background-size: cover;
   background-position : center;
   background-repeat:no-repeat;   
-  
+  width: 100%;
+  overflow-x: hidden; /*esto es el mejor invento del universo */
 }
