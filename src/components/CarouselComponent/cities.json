@@ -1,16 +1,17 @@
-
 [
-    { "name": "Finland", "capital": "Helsinki", "image": "src/assets/carrousel/helsinki.jpeg" },
-    { "name": "Sweden", "capital": "Stockholm", "image": "src/assets/carrousel/stockholm.jpg" },
-    { "name": "Norway", "capital": "Oslo", "image": "src/assets/carrousel/oslo.jpg" },
-    { "name": "Germany", "capital": "Berlin", "image": "src/assets/carrousel/berlin.jpg" },
-    { "name": "Greece", "capital": "Athens", "image": "src/assets/carrousel/athens.jpg" },
-    { "name": "Italy", "capital": "Rome", "image": "src/assets/carrousel/rome.jpg" },
-    { "name": "Japan", "capital": "Tokyo", "image": "src/assets/carrousel/tokio.jpg" },
-    { "name": "United Kingdom", "capital": "London", "image": "src/assets/carrousel/london.jpg" },
-    { "name": "United States", "capital": "Washington, D.C.", "image": "src/assets/carrousel/washington.jpg" },
-    { "name": "Ecuador", "capital": "Quito", "image": "src/assets/carrousel/quito.jpg" },
-    { "name": "Colombia", "capital": "Bogotá", "image": "src/assets/carrousel/bogota.jpeg" },
-    { "name": "Argentina", "capital": "Buenos Aires", "image": "src/assets/carrousel/bsas.jpg" }
-  ]
-  
+  { "name": "Finland", "capital": "Helsinki", "image": "src/assets/carrousel/helsinki.jpeg", "description": "Finland is known for its beautiful lakes and stunning natural landscapes." },
+  { "name": "Sweden", "capital": "Stockholm", "image": "src/assets/carrousel/stockholm.jpg", "description": "Sweden offers a mix of picturesque cities, historic sites, and breathtaking archipelagos." },
+  { "name": "Norway", "capital": "Oslo", "image": "src/assets/carrousel/oslo.jpg", "description": "Norway boasts dramatic fjords, northern lights, and a rich Viking history." },
+  { "name": "Germany", "capital": "Berlin", "image": "src/assets/carrousel/berlin.jpg", "description": "Germany is famous for its cultural heritage, diverse cities, and delicious cuisine." },
+  { "name": "Greece", "capital": "Athens", "image": "src/assets/carrousel/athens.jpg", "description": "Greece is the birthplace of Western civilization, known for its ancient ruins and stunning islands." },
+  { "name": "Italy", "capital": "Rome", "image": "src/assets/carrousel/rome.jpg", "description": "Italy offers iconic landmarks, historic art, and a rich history of Renaissance and Roman culture." },
+  { "name": "Japan", "capital": "Tokyo", "image": "src/assets/carrousel/tokio.jpg", "description": "Japan seamlessly combines modern technology with traditional culture, offering futuristic cities and serene temples." },
+  { "name": "United Kingdom", "capital": "London", "image": "src/assets/carrousel/london.jpg", "description": "The UK is a blend of historic castles, vibrant cities, and diverse cultural influences." },
+  { "name": "United States", "capital": "Washington, D.C.", "image": "src/assets/carrousel/washington.jpg", "description": "The US features a wide range of landscapes, iconic cities, and cultural diversity." },
+  { "name": "Ecuador", "capital": "Quito", "image": "src/assets/carrousel/quito.jpg", "description": "Ecuador offers diverse ecosystems, including the Amazon rainforest and the Galápagos Islands." },
+  { "name": "Colombia", "capital": "Bogotá", "image": "src/assets/carrousel/bogota.jpeg", "description": "Colombia is known for its lush landscapes, coffee plantations, and vibrant culture." },
+  { "name": "Argentina", "capital": "Buenos Aires", "image": "src/assets/carrousel/bsas.jpg", "description": "Argentina boasts tango music, stunning natural wonders like Iguazu Falls, and a rich history." },
+  { "name": "Spain", "capital": "Madrid", "image": "src/assets/carrousel/madrid.jpg", "description": "Spain offers diverse regions, historic architecture, and a lively Mediterranean lifestyle." },
+  { "name": "Canada", "capital": "Ottawa", "image": "src/assets/carrousel/ottawa.jpg", "description": "Canada is known for its vast wilderness, friendly cities, and stunning national parks." },
+  { "name": "Australia", "capital": "Canberra", "image": "src/assets/carrousel/canberra.jpg", "description": "Australia features iconic landmarks, unique wildlife, and stunning coastal landscapes." }
+]
